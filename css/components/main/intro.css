@@ -144,6 +144,11 @@
     font-size: 32px;
   }
 }
+@media (max-width: 400px) {
+  .intro__title {
+    font-size: 26px;
+  }
+}
 @media (max-width: 320px) {
   .intro__title {
     font-size: 22px;

@@ -179,6 +179,11 @@ strong {
     max-width: 430px;
   }
 }
+@media (min-width: 321px) and (max-width: 480px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+}
 @media (max-width: 320px) {
   .wrapper {
     max-width: 280px;
@@ -3304,6 +3309,11 @@ strong {
 @media (max-width: 480px) {
   .intro__title {
     font-size: 32px;
+  }
+}
+@media (max-width: 400px) {
+  .intro__title {
+    font-size: 26px;
   }
 }
 @media (max-width: 320px) {
