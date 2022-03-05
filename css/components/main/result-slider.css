@@ -1,1 +1,78 @@
-.result-slider{padding-bottom:150px;position:relative}.result-slider:before{content:"";position:absolute;left:-43px;bottom:-49px;background-image:url(../img/main/services/wave-before.svg);background-position:center;background-repeat:no-repeat;background-size:contain;width:200px;height:120px;z-index:-1}@media (max-width:980px){.result-slider{padding-bottom:100px}.result-slider:before{left:-46px;bottom:-54px}}@media (max-width:768px){.result-slider:before{width:157px;height:94px;left:-28px;bottom:-45px}}.result-slider:after{content:"";position:absolute;right:-24px;top:100px;background-image:url(../img/main/services/wave-before.svg);background-position:center;background-repeat:no-repeat;background-size:contain;width:200px;height:120px;z-index:-1}@media (max-width:980px){.result-slider:after{right:-56px;top:-28px}}@media (max-width:768px){.result-slider:after{width:157px;height:94px;right:-35px;top:-25px}}@media (max-width:480px){.result-slider{padding-bottom:80px}.result-slider:after,.result-slider:before{display:none}}
+.result-slider {
+  padding-bottom: 150px;
+  position: relative;
+}
+@media (max-width: 980px) {
+  .result-slider {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .result-slider {
+    padding-bottom: 80px;
+  }
+}
+.result-slider:before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  bottom: -49px;
+  background-image: url(../img/main/services/wave-before.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 120px;
+  z-index: -1;
+}
+@media (max-width: 980px) {
+  .result-slider:before {
+    left: -46px;
+    bottom: -54px;
+  }
+}
+@media (max-width: 768px) {
+  .result-slider:before {
+    width: 157px;
+    height: 94px;
+    left: -28px;
+    bottom: -45px;
+  }
+}
+@media (max-width: 480px) {
+  .result-slider:before {
+    display: none;
+  }
+}
+.result-slider:after {
+  content: "";
+  position: absolute;
+  right: -24px;
+  top: 100px;
+  background-image: url(../img/main/services/wave-before.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 120px;
+  z-index: -1;
+}
+@media (max-width: 980px) {
+  .result-slider:after {
+    right: -56px;
+    top: -28px;
+  }
+}
+@media (max-width: 768px) {
+  .result-slider:after {
+    width: 157px;
+    height: 94px;
+    right: -35px;
+    top: -25px;
+  }
+}
+@media (max-width: 480px) {
+  .result-slider:after {
+    display: none;
+  }
+}

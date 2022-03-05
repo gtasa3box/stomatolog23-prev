@@ -1,1 +1,141 @@
-.numbers-or-clinic{padding-bottom:200px}@media (max-width:980px){.numbers-or-clinic{padding-bottom:140px}}.numbers-or-clinic__content{position:relative}.numbers-or-clinic__content:before{content:"";position:absolute;background-image:url(../img/main/numbers-or-clinic/tooth.png);background-position:center;background-repeat:no-repeat;background-size:contain;width:237px;height:237px;right:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.numbers-or-clinic__grid{margin-top:8px;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;max-width:830px;position:relative;z-index:2}.numbers-or-clinic__elem{margin-top:25px}.numbers-or-clinic__elem p{font-family:var(--OpenSans);font-style:normal;font-weight:400;font-size:14px;line-height:130%;letter-spacing:.02em;color:#000;padding-right:48px}@media (max-width:980px){.numbers-or-clinic__content:before{width:199px;height:199px}.numbers-or-clinic__grid{max-width:730px}.numbers-or-clinic__elem{margin-top:21px}.numbers-or-clinic__elem p{font-size:12px}}@media (max-width:768px){.numbers-or-clinic{padding-bottom:100px}.numbers-or-clinic__content:before{right:-14px;top:-57px;-webkit-transform:translate(0);-ms-transform:translate(0);transform:translate(0)}.numbers-or-clinic__elem p{padding-right:39px}}@media (max-width:480px){.numbers-or-clinic{padding-bottom:80px}.numbers-or-clinic__content:before{display:none}.numbers-or-clinic__grid{width:100%;display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2,1fr)}.numbers-or-clinic__elem p{padding-right:0}}.numbers-or-clinic__elem span{font-family:var(--Geometria);font-style:normal;font-weight:700;font-size:28px;line-height:130%;letter-spacing:.02em;color:#000;margin-right:13px}@media (max-width:980px){.numbers-or-clinic__elem span{font-size:24px;margin-right:10px}}@media (max-width:320px){.numbers-or-clinic__grid{-ms-grid-columns:(1fr)[1];grid-template-columns:repeat(1,1fr)}.numbers-or-clinic__elem span{margin-right:5px}}
+.numbers-or-clinic {
+  padding-bottom: 200px;
+}
+@media (max-width: 980px) {
+  .numbers-or-clinic {
+    padding-bottom: 140px;
+  }
+}
+@media (max-width: 768px) {
+  .numbers-or-clinic {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .numbers-or-clinic {
+    padding-bottom: 80px;
+  }
+}
+.numbers-or-clinic__content {
+  position: relative;
+}
+.numbers-or-clinic__content:before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/main/numbers-or-clinic/tooth.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 237px;
+  height: 237px;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media (max-width: 980px) {
+  .numbers-or-clinic__content:before {
+    width: 199px;
+    height: 199px;
+  }
+}
+@media (max-width: 768px) {
+  .numbers-or-clinic__content:before {
+    right: -14px;
+    top: -57px;
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@media (max-width: 480px) {
+  .numbers-or-clinic__content:before {
+    display: none;
+  }
+}
+.numbers-or-clinic__grid {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 830px;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 980px) {
+  .numbers-or-clinic__grid {
+    max-width: 730px;
+  }
+}
+@media (max-width: 480px) {
+  .numbers-or-clinic__grid {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 320px) {
+  .numbers-or-clinic__grid {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.numbers-or-clinic__elem {
+  margin-top: 25px;
+}
+@media (max-width: 980px) {
+  .numbers-or-clinic__elem {
+    margin-top: 21px;
+  }
+}
+.numbers-or-clinic__elem p {
+  font-family: var(--OpenSans);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-right: 48px;
+}
+@media (max-width: 980px) {
+  .numbers-or-clinic__elem p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .numbers-or-clinic__elem p {
+    padding-right: 39px;
+  }
+}
+@media (max-width: 480px) {
+  .numbers-or-clinic__elem p {
+    padding-right: 0;
+  }
+}
+.numbers-or-clinic__elem span {
+  font-family: var(--Geometria);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-right: 13px;
+}
+@media (max-width: 980px) {
+  .numbers-or-clinic__elem span {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .numbers-or-clinic__elem span {
+    margin-right: 5px;
+  }
+}

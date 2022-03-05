@@ -1,1 +1,134 @@
-.uslugi-grid{padding-bottom:150px;position:relative;z-index:2}.uslugi-grid__top-grid{display:-ms-grid;display:grid;-ms-grid-columns:(1fr)[2];grid-template-columns:repeat(2,1fr);grid-column-gap:40px;grid-row-gap:40px;margin-bottom:60px}@media (max-width:980px){.uslugi-grid{padding-bottom:120px}.uslugi-grid__top-grid{grid-column-gap:35px;grid-row-gap:35px;margin-bottom:50px}}@media (max-width:768px){.uslugi-grid{padding-bottom:100px}.uslugi-grid__top-grid{grid-column-gap:40px;grid-row-gap:40px}}@media (max-width:480px){.uslugi-grid{padding-bottom:80px}.uslugi-grid__top-grid{grid-column-gap:30px;grid-row-gap:30px;margin-bottom:30px}}.uslugi-grid__bottom-grid{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:-40px}@media (max-width:980px){.uslugi-grid__bottom-grid{margin-bottom:-35px}}@media (max-width:768px){.uslugi-grid__bottom-grid{margin-bottom:-40px}}@media (max-width:480px){.uslugi-grid__bottom-grid{margin-bottom:-30px;height:370px;overflow:hidden;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}.uslugi-grid__bottom-grid.active{height:auto}}@media (max-width:320px){.uslugi-grid__top-grid{-ms-grid-columns:(1fr)[1];grid-template-columns:repeat(1,1fr);grid-row-gap:20px}.uslugi-grid__bottom-grid{height:140px;margin-bottom:-20px}}.uslugi-grid__bottom-elem{width:22%;margin-bottom:40px}@media (max-width:980px){.uslugi-grid__bottom-elem{margin-bottom:35px}}@media (max-width:768px){.uslugi-grid__bottom-elem{width:30%;margin-bottom:40px}}@media (max-width:480px){.uslugi-grid__bottom-elem{width:46%;margin-bottom:30px}}@media (max-width:320px){.uslugi-grid__bottom-elem{margin-bottom:20px}}.uslugi-grid__btn{display:none}@media (max-width:480px){.uslugi-grid__btn{display:block;margin:50px auto 0;width:200px;height:44px}}
+.uslugi-grid {
+  padding-bottom: 150px;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 980px) {
+  .uslugi-grid {
+    padding-bottom: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .uslugi-grid {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .uslugi-grid {
+    padding-bottom: 80px;
+  }
+}
+.uslugi-grid__top-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin-bottom: 60px;
+}
+@media (max-width: 980px) {
+  .uslugi-grid__top-grid {
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .uslugi-grid__top-grid {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .uslugi-grid__top-grid {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .uslugi-grid__top-grid {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
+}
+.uslugi-grid__bottom-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: -40px;
+}
+@media (max-width: 980px) {
+  .uslugi-grid__bottom-grid {
+    margin-bottom: -35px;
+  }
+}
+@media (max-width: 768px) {
+  .uslugi-grid__bottom-grid {
+    margin-bottom: -40px;
+  }
+}
+@media (max-width: 480px) {
+  .uslugi-grid__bottom-grid {
+    margin-bottom: -30px;
+    height: 370px;
+    overflow: hidden;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  .uslugi-grid__bottom-grid.active {
+    height: auto;
+  }
+}
+@media (max-width: 320px) {
+  .uslugi-grid__bottom-grid {
+    height: 140px;
+    margin-bottom: -20px;
+  }
+}
+.uslugi-grid__bottom-elem {
+  width: 22%;
+  margin-bottom: 40px;
+}
+@media (max-width: 980px) {
+  .uslugi-grid__bottom-elem {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .uslugi-grid__bottom-elem {
+    width: 30%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .uslugi-grid__bottom-elem {
+    width: 46%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .uslugi-grid__bottom-elem {
+    margin-bottom: 20px;
+  }
+}
+.uslugi-grid__btn {
+  display: none;
+}
+@media (max-width: 480px) {
+  .uslugi-grid__btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 44px;
+    margin-top: 50px;
+  }
+}

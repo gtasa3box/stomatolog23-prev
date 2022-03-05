@@ -1,1 +1,10 @@
-body{background-color:#fff}body.hidden{overflow:hidden}
+body {
+  background-color: white;
+}
+body.hidden {
+  overflow: hidden;
+}
+
+strong {
+  font-weight: bold;
+}
